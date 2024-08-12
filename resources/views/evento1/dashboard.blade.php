@@ -8,7 +8,7 @@
 
 </div>
 <div class="col-md-10 offset-md-1 dashbord-events-container">
-    @if (count(events)> 0)
+@if (count($events)> 0)
     <table class="table">
         <thead>
             <tr>
@@ -17,8 +17,8 @@
         </thead>
     </table>
     @else
-    <p>sem eventos cadastrados, <a href="/evento1/criarevento">criar eventos</a></p>
-        <table class="table"></table>
+    <p>sem eventos cadastrados <a href="/evento1/criarevento">criar eventos ?</a></p>
+       
     @endif
 
 </div>    

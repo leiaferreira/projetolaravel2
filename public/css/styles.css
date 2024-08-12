@@ -191,4 +191,12 @@ footer p{
 #items-list li{
     display: flex;
 }
+.dashboard-title-containe{
+    margin-bottom: 30px;
+    margin-top:30px;
+}
+.dashboard-events-containe th{
+    width: 25%;
+
+}
 

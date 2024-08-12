@@ -25,6 +25,8 @@ Route::get('/evento1/{id}', [Eventcontroller::class, 'show']);
 Route::get('/entrar', [Eventcontroller::class, 'entrar']);
 
 Route::post('/evento1/criarevento',[Eventcontroller::class, 'store']);
-Route::get('/evento1/dashboard', [Eventcontroller::class, 'dashboard'])->middleware('auth');
+/*Route::get('/evento1/dashboard', [Eventcontroller::class, 'dashboard1'])->middleware('auth');*/
+
+Route::get('/profile/dashboard', [Eventcontroller::class, 'dashboard1'])->middleware('auth');
 
 
